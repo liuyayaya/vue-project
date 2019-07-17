@@ -5,6 +5,7 @@ const path = require('path');
 // 合并配置文件
 const merge = require('webpack-merge');
 const common = require('./webpack.base.js');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 // 打包之前清除文件
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");

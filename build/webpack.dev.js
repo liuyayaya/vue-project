@@ -2,6 +2,7 @@
 // 存放 dev 配置
 const merge = require('webpack-merge');
 const common = require('./webpack.base.js');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 console.log('hello', path.join(__dirname, 'dist'));
 module.exports = merge(common, {
